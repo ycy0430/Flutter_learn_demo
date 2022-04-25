@@ -7,7 +7,25 @@
 		<key>iosDemo.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>3A8820272816361D00B1EA54</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3A8820422816361E00B1EA54</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3A88204C2816361E00B1EA54</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

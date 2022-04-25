@@ -6,6 +6,8 @@
 //
 
 #import "HomeViewController.h"
+#import <Flutter/Flutter.h>
+#import "AppDelegate.h"
 
 @interface HomeViewController ()
 
@@ -24,6 +26,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     self.automaticallyAdjustsScrollViewInsets = NO;
     self.navigationItem.title = @"iOSNative";
+    self.navigationController.navigationBar.hidden = YES;
     self.navigationController.navigationBar.backgroundColor = [UIColor redColor];
     CGFloat width = self.view.frame.size.width;
     self.button = [[UIButton alloc] initWithFrame:CGRectMake((width-100)/2, 100, 100, 50 )];
@@ -35,7 +38,13 @@
 }
 
 - (void)jumpToFlutter{
-    NSLog(@"YCY--%@",@"aaa");
+    FlutterEngine *flutterEngine =
+        ((AppDelegate *)UIApplication.sharedApplication.delegate).flutterEngine;
+    FlutterViewController *flutterViewController =
+        [[FlutterViewController alloc] initWithEngine:flutterEngine nibName:nil bundle:nil];
+    
+//    [flutterViewController pushRoute:@"/test"];
+    [self.navigationController pushViewController:flutterViewController animated:YES];
 }
 
 
