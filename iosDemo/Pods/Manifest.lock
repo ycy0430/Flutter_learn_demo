@@ -1,56 +1,28 @@
 PODS:
-  - device_info_plus (0.0.1):
-    - Flutter
   - Flutter (1.0.0)
-  - flutter_boost (0.0.2):
-    - Flutter
   - FlutterPluginRegistrant (0.0.1):
-    - device_info_plus
     - Flutter
-    - flutter_boost
-    - gkd_net_plugin
-    - package_info_plus
-  - gkd_flutter_module (0.0.1):
-    - Flutter
-  - gkd_net_plugin (0.0.1):
-    - Flutter
-  - package_info_plus (0.4.5):
+  - my_flutter (0.0.1):
     - Flutter
 
 DEPENDENCIES:
-  - device_info_plus (from `../gkd_flutter_module/.ios/.symlinks/plugins/device_info_plus/ios`)
-  - Flutter (from `../gkd_flutter_module/.ios/Flutter/engine`)
-  - flutter_boost (from `../gkd_flutter_module/.ios/.symlinks/plugins/flutter_boost/ios`)
-  - FlutterPluginRegistrant (from `../gkd_flutter_module/.ios/Flutter/FlutterPluginRegistrant`)
-  - gkd_flutter_module (from `../gkd_flutter_module/.ios/Flutter`)
-  - gkd_net_plugin (from `../gkd_flutter_module/.ios/.symlinks/plugins/gkd_net_plugin/ios`)
-  - package_info_plus (from `../gkd_flutter_module/.ios/.symlinks/plugins/package_info_plus/ios`)
+  - Flutter (from `../my_flutter/.ios/Flutter/engine`)
+  - FlutterPluginRegistrant (from `../my_flutter/.ios/Flutter/FlutterPluginRegistrant`)
+  - my_flutter (from `../my_flutter/.ios/Flutter`)
 
 EXTERNAL SOURCES:
-  device_info_plus:
-    :path: "../gkd_flutter_module/.ios/.symlinks/plugins/device_info_plus/ios"
   Flutter:
-    :path: "../gkd_flutter_module/.ios/Flutter/engine"
-  flutter_boost:
-    :path: "../gkd_flutter_module/.ios/.symlinks/plugins/flutter_boost/ios"
+    :path: "../my_flutter/.ios/Flutter/engine"
   FlutterPluginRegistrant:
-    :path: "../gkd_flutter_module/.ios/Flutter/FlutterPluginRegistrant"
-  gkd_flutter_module:
-    :path: "../gkd_flutter_module/.ios/Flutter"
-  gkd_net_plugin:
-    :path: "../gkd_flutter_module/.ios/.symlinks/plugins/gkd_net_plugin/ios"
-  package_info_plus:
-    :path: "../gkd_flutter_module/.ios/.symlinks/plugins/package_info_plus/ios"
+    :path: "../my_flutter/.ios/Flutter/FlutterPluginRegistrant"
+  my_flutter:
+    :path: "../my_flutter/.ios/Flutter"
 
 SPEC CHECKSUMS:
-  device_info_plus: e5c5da33f982a436e103237c0c85f9031142abed
   Flutter: bdfa2e8fe0e2880a2c6a58a0b1a8675c262a07af
-  flutter_boost: 6a73c54e5654df180c2cc379045b8cba9746fc8a
-  FlutterPluginRegistrant: 30c4abc40f1f445defe7d2a79ae275f01fccdb45
-  gkd_flutter_module: a6c8e7fa7b6f2a482286b9f0a488e0edd2da4704
-  gkd_net_plugin: 2790a34af2888a2acd3b331a51b4f94411a4463c
-  package_info_plus: 6c92f08e1f853dc01228d6f553146438dafcd14e
+  FlutterPluginRegistrant: 2afd5ea46d3a949472c9b7da6462d8fbf7d8b16e
+  my_flutter: 5f71a42a61a499a9f322f2c0f62fc185a5807c9b
 
-PODFILE CHECKSUM: a67b6dfad6085d5e1e7bf70b248e100b7a321b39
+PODFILE CHECKSUM: c371e0d3ceab48eef5530d725db6590ea31dd425
 
 COCOAPODS: 1.11.2

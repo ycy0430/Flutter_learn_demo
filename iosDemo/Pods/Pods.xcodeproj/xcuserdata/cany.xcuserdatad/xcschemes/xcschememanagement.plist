@@ -19,27 +19,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>device_info_plus.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>flutter_boost.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>gkd_flutter_module.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>gkd_net_plugin.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>package_info_plus.xcscheme</key>
+		<key>my_flutter.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

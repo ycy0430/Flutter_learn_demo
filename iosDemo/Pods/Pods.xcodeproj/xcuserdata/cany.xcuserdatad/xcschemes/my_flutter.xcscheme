@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D1D55CDEAA676462F9D19609AE851E29"
-               BuildableName = "gkd_net_plugin.framework"
-               BlueprintName = "gkd_net_plugin"
+               BlueprintIdentifier = "E55D6D9CE3B34ED87310823EE348579B"
+               BuildableName = "my_flutter"
+               BlueprintName = "my_flutter"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

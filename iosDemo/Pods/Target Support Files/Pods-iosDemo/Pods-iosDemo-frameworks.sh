@@ -176,19 +176,11 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/device_info_plus/device_info_plus.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/flutter_boost/flutter_boost.framework"
-  install_framework "${PODS_ROOT}/../../gkd_flutter_module/.ios/Flutter/App.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/gkd_net_plugin/gkd_net_plugin.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/package_info_plus/package_info_plus.framework"
+  install_framework "${PODS_ROOT}/../../my_flutter/.ios/Flutter/App.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/Flutter/Flutter.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/device_info_plus/device_info_plus.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/flutter_boost/flutter_boost.framework"
-  install_framework "${PODS_ROOT}/../../gkd_flutter_module/.ios/Flutter/App.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/gkd_net_plugin/gkd_net_plugin.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/package_info_plus/package_info_plus.framework"
+  install_framework "${PODS_ROOT}/../../my_flutter/.ios/Flutter/App.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/Flutter/Flutter.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

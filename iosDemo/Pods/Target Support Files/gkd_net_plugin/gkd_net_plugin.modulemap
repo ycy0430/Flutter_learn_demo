@@ -1,6 +1,0 @@
-framework module gkd_net_plugin {
-  umbrella header "gkd_net_plugin-umbrella.h"
-
-  export *
-  module * { export * }
-}

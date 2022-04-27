@@ -28,18 +28,6 @@
   "dependencies": {
     "Flutter": [
 
-    ],
-    "device_info_plus": [
-
-    ],
-    "flutter_boost": [
-
-    ],
-    "gkd_net_plugin": [
-
-    ],
-    "package_info_plus": [
-
     ]
   }
 }

@@ -12,6 +12,7 @@
 
 @property (strong ,nonatomic) UIWindow *window;
 @property (nonatomic,strong) FlutterEngine *flutterEngine;
+@property (nonatomic,strong) FlutterEngine *flutterHomeEngine;
 
 @end
 
